@@ -37,7 +37,7 @@ https://cdn.datatables.net/rowgroup/1.0.2/js/dataTables.rowGroup.min.js
 */
 
 function augmentFrame() {
-$("article[data-test-id=frame]").each(function() {
+$("article[data-testid=frame]").each(function() {
    var frame=$(this);
 
    function toggleChart(type) {
